@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivityRegister">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:src="@drawable/img_principal"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.03"
+        android:text="@string/txt_register"
+        android:textAlignment="center"
+        android:textColor="@color/TextBlue"
+        android:textSize="46sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_email_address"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/forget"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/TextBlue"
+        android:hint="@string/txt_email_address"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/TextBlue"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/forget"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/TextBlue"
+        android:hint="@string/txt_password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/TextBlue"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edt_confirm_password"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/forget"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="10dp"
+        android:drawableTint="@color/TextBlue"
+        android:hint="@string/txt_confirm_password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:textColorHint="@color/TextBlue"
+        android:textStyle="bold"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="@string/txt_register"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/txt_have_account"
+        android:textAlignment="center"
+        android:textColor="@color/TextBlue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="3dp"/>
+
+</LinearLayout>

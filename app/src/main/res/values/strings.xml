@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Login and Register App</string>
+    <string name="txt_welcome">Welcome</string>
+    <string name="txt_create_a_new_account">Create a new account</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_register">Register</string>
+    <string name="txt_email_address">Email Address</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_dont_account">Dont\'t have an account? Sign up</string>
+    <string name="txt_confirm_password">Confirm Password</string>
+    <string name="txt_have_account">Already have an account? Sign In</string>
+    <string name="txt_log_out">Log Out</string>
+</resources>
